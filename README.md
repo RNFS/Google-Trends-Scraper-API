@@ -16,7 +16,7 @@
 ---
 
 <div align="center">
-  <img src="preview.jpeg" alt="Google Trends Apify Output Preview" width="100%">
+  <img src="google-trends-api-scraper-output.png" alt="Google Trends Apify Output Preview" width="100%">
 </div>
 
 ## 📖 Overview
