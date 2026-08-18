@@ -111,5 +111,5 @@ items.forEach((item) => {
 ---
 <div align="center">
   <b>Built for scale. Designed for reliability.</b><br>
-  <a href="https://apify.com/scraperpro/google-trends-scraper-api">Start Scraping Now</a>
+  <a href="https://apify.com/scraperpro/google-trends-scraper-api?fpr=939u3w&fp_sid=20260819">Start Scraping Now</a>
 </div>
