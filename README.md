@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://unitbytes.com/assets/banners/unitbytes-google-trends-realtime-keyword-api-banner.jpg" alt="Google Trends Real-Time & Historical API by UnitBytes" width="100%" />
+</p>
+
 # 📈 Google Trends Scraper API
 
 <div align="center">
@@ -73,7 +77,7 @@ run_input = {
 }
 
 # Run the Actor and wait for it to finish
-run = client.actor(\"unitbytes/google-trends-scraper-api\").call(run_input=run_input)
+run = client.actor("unitbytes/google-trends-scraper-api\").call(run_input=run_input)
 
 # Fetch and print Actor results from the run's dataset
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -99,7 +103,7 @@ const input = {
 };
 
 // Run the Actor and wait for it to finish
-const run = await client.actor(\"unitbytes/google-trends-scraper-api\").call(input);
+const run = await client.actor("unitbytes/google-trends-scraper-api\").call(input);
 
 // Fetch and print Actor results from the run's dataset
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
@@ -113,3 +117,11 @@ items.forEach((item) => {
   <b>Built for scale. Designed for reliability.</b><br>
   <a href="https://apify.com/unitbytes/google-trends-scraper-api?fpr=939u3w&fp_sid=20260819">Start Scraping Now</a>
 </div>
+
+---
+
+## 💬 Enterprise Support & Custom Pipelines
+Need custom web data feeds, high-frequency scheduled runs, private cluster deployments, or dedicated SLAs?
+- 📧 **Direct Email**: [contact@unitbytes.com](mailto:contact@unitbytes.com)
+- 🌐 **Enterprise Platform**: [https://unitbytes.com](https://unitbytes.com)
+- 💡 **Data Engine Specs & Live Docs**: [https://unitbytes.com/actors/google-trends-api/](https://unitbytes.com/actors/google-trends-api/)
