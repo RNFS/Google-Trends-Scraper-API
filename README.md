@@ -2,14 +2,14 @@
 
 <div align="center">
 
-[![Available on Apify](https://img.shields.io/badge/Available_on-Apify-28B52A?style=for-the-badge&logo=apify&logoColor=white)](https://apify.com/scraperpro/google-trends-scraper-api?fpr=939u3w&fp_sid=20260819)
+[![Available on Apify](https://img.shields.io/badge/Available_on-Apify-28B52A?style=for-the-badge&logo=apify&logoColor=white)](https://apify.com/unitbytes/google-trends-scraper-api?fpr=939u3w&fp_sid=20260819)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](#)
 [![Success Rate](https://img.shields.io/badge/Success_Rate-99%25+-brightgreen?style=for-the-badge)](#)
 [![Pay Per Event](https://img.shields.io/badge/Pricing-Pay_Per_Event-orange?style=for-the-badge)](#)
 
 **The most reliable and comprehensive Google Trends Scraper on Apify. Extract real-time trending searches, historical timeline data, regional interest maps, related queries, and related topics — all from a single actor at an unbeatable pay-per-event price.**
 
-[**🚀 Try it for free on Apify**](https://apify.com/scraperpro/google-trends-scraper-api?fpr=939u3w&fp_sid=20260819)
+[**🚀 Try it for free on Apify**](https://apify.com/unitbytes/google-trends-scraper-api?fpr=939u3w&fp_sid=20260819)
 
 </div>
 
@@ -51,7 +51,7 @@ This robust scraper allows you to collect data from **all 5 major Google Trends 
 
 ## 🛠️ How to use it (API Examples)
 
-You can run this scraper via the [Apify Console](https://apify.com/scraperpro/google-trends-scraper-api?fpr=939u3w&fp_sid=20260819), or integrate it directly into your own applications using Apify's API.
+You can run this scraper via the [Apify Console](https://apify.com/unitbytes/google-trends-scraper-api?fpr=939u3w&fp_sid=20260819), or integrate it directly into your own applications using Apify's API.
 
 ### Python Example
 
@@ -73,7 +73,7 @@ run_input = {
 }
 
 # Run the Actor and wait for it to finish
-run = client.actor("scraperpro/google-trends-scraper-api").call(run_input=run_input)
+run = client.actor(\"unitbytes/google-trends-scraper-api\").call(run_input=run_input)
 
 # Fetch and print Actor results from the run's dataset
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -99,7 +99,7 @@ const input = {
 };
 
 // Run the Actor and wait for it to finish
-const run = await client.actor("scraperpro/google-trends-scraper-api").call(input);
+const run = await client.actor(\"unitbytes/google-trends-scraper-api\").call(input);
 
 // Fetch and print Actor results from the run's dataset
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
@@ -111,5 +111,5 @@ items.forEach((item) => {
 ---
 <div align="center">
   <b>Built for scale. Designed for reliability.</b><br>
-  <a href="https://apify.com/scraperpro/google-trends-scraper-api?fpr=939u3w&fp_sid=20260819">Start Scraping Now</a>
+  <a href="https://apify.com/unitbytes/google-trends-scraper-api?fpr=939u3w&fp_sid=20260819">Start Scraping Now</a>
 </div>
