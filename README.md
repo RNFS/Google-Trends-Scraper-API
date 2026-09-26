@@ -39,6 +39,23 @@
 
 ---
 
+## ⚡ Pre-Configured 1-Click Tasks & Common Use Cases
+
+Skip manual parameter setup. Launch these ready-to-use task presets directly in 1 click:
+
+| Search Intelligence / Trading Preset | Description & Target Query | 1-Click Run Link |
+| :--- | :--- | :---: |
+| **Trending Searches on Google Today** | Access the latest trending Google searches for today. Receive real-time insights on popular queries and regional demand. | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper-api?task=trending-google-searches-for-today&fpr=939u3w&fp_sid=gh_trends_api) |
+| **Analyze Google Trends for Crypto & Stock Trading** | Analyze trends for Bitcoin, Ethereum, Nvidia, S&P 500, and Gold over the past three months. Gain insights into regional interest and demand. | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper-api?task=analyze-trends-historical-trading&fpr=939u3w&fp_sid=gh_trends_api) |
+| **Breakdown Google Search Trends for Local SEO** | Breakdown keyword search interest by state, sub-region, or DMA region. Designed for local marketers and advertisers optimizing geographic ad targeting | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper-api?task=breakdown-search-trends-by-region&fpr=939u3w&fp_sid=gh_trends_api) |
+| **Extract Trending YouTube Search Keywords for Video SEO** | Target YouTube searches specifically. Discover what queries are rising on YouTube to optimize video titles, tags, and production schedules. | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper-api?task=extract-youtube-trends-video-seo&fpr=939u3w&fp_sid=gh_trends_api) |
+| **Validate Product Demand on Google Shopping for E-Commerce** | Query Google Shopping trends to spot emerging product demand, validate dropshipping niches, and optimize inventory ad spend | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper-api?task=validate-product-demand-google-shopping&fpr=939u3w&fp_sid=gh_trends_api) |
+| **Map Competitor Brand Keywords & Related Topics** | Scrape related search topics and keywords surrounding your brand or competitors to build comprehensive SEO semantic content maps | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper-api?task=map-competitor-brand-related-topics&fpr=939u3w&fp_sid=gh_trends_api) |
+| **Track Viral News Keywords on Google News** | Pull trending queries and related topics from Google News search. Automate news keyword extraction to optimize search engine visibility | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper-api?task=track-viral-news-keywords-google-news&fpr=939u3w&fp_sid=gh_trends_api) |
+| **Extract Trending YouTube Video Topics & Keywords** | Discover fast-rising video topics, viral queries, and breakout search terms to optimize YouTube video tags, titles, and SEO. | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper-api?task=youtube-viral-topics-extractor&fpr=939u3w&fp_sid=gh_trends_api) |
+
+---
+
 ## 🏆 Why Choose This Scraper?
 
 Most Google Trends scrapers return deeply nested JSON structures that are difficult to work with unless you write custom scripts to flatten arrays. Furthermore, they frequently suffer from Google's strict rate limits (`429 Too Many Requests`).
